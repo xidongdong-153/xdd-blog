@@ -1,0 +1,15 @@
+{
+    "directoryMappings": {
+        "about": "关于",
+        "blog": "博文",
+        "programming": "编程",
+        "tips": "技巧",
+        "others": "其他",
+        "notes": "笔记"
+    },
+    "directoryOrder": {
+        "blog": 1,
+        "programming": 2,
+        "tips": 3
+    }
+}

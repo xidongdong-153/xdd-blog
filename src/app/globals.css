@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 定义滚动条的宽度和轨道（track）样式 */
+::-webkit-scrollbar {
+    @apply w-2; /* 滚动条宽度 */
+}
+
+/* 定义滚动条滑块（thumb）样式 */
+::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-xdd-bg-300; /* 使用 Tailwind 的背景颜色和圆角 */
+}
+
+/* 定义滚动条轨道（track）样式 */
+::-webkit-scrollbar-track {
+    @apply bg-xdd-bg-100; /* 使用 Tailwind 的背景颜色 */
+}
